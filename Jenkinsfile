@@ -21,5 +21,12 @@ stages {
 			echo "testing my code"
 		}
 	}
+	
+	stage('Prod') {
+		steps {
+			echo "Production code"
+		}
+	}
+
 	}
 }
